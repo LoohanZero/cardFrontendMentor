@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.card-container {
+    width: 50%;
+    display: flex;
+}
+
+.card-result-container {
+    width: 50%;
+    color:  hsl(0, 0%, 100%);
+    background: linear-gradient(0deg, hsl(241, 81%, 54%) 50%, hsl(252, 100%, 67%) 100%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-result-container p,
+.card-result-container h1 {
+    text-align: center;
+}
+
+.card-result-circle {
+    background: linear-gradient(0deg, hsla(241, 72%, 46%, 0) 0%, hsla(256, 72%, 46%, 1) 100%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-result-score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-result-score-number {
+    font-size: 30px;
+    font-weight: bold;
+}
+.card-summary-container {
+    width: 50%
+}
